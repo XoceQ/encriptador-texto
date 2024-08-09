@@ -6,7 +6,7 @@ Aplicación web para encriptar y desencriptar textos utilizando un algoritmo de 
 Encriptación: Reemplaza cada letra con otra letra un número fijo de posiciones adelante en el alfabeto.
 Desencriptación: Devuelve el texto encriptado a su forma original.
 
-Algoritmo: Sustitución simple.
+<li>Algoritmo: Sustitución simple.</li>
 Interfaz: Sencilla y fácil de usar.
 Tecnologías Utilizadas
 HTML: Estructura de la interfaz.
@@ -30,7 +30,7 @@ Clona el repositorio utilizando git clone https://github.com/xoceq/encriptador-t
 
 Abre el archivo index.html en tu navegador web
 
-<h1>Uso
+<h1>Uso</h1>
 
 Ingresa el texto que deseas encriptar o desencriptar en el campo de texto correspondiente.
 Haz clic en el botón "Encriptar" o "Desencriptar" según sea necesario.
