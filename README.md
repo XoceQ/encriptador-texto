@@ -7,11 +7,12 @@ Encriptación: Reemplaza cada letra con otra letra un número fijo de posiciones
 Desencriptación: Devuelve el texto encriptado a su forma original.
 
 <li>Algoritmo: Sustitución simple.</li>
-Interfaz: Sencilla y fácil de usar.
-Tecnologías Utilizadas
-HTML: Estructura de la interfaz.
-CSS: Estilos y formato.
-JavaScript: Lógica de encriptación y desencriptación.
+<li>Interfaz: Sencilla y fácil de usar.</li>
+  
+<h1>Tecnologías Utilizadas</h1>
+<li>HTML: Estructura de la interfaz.</li>
+<li>CSS: Estilos y formato.</li>
+<li>JavaScript: Lógica de encriptación y desencriptación.</li>
 
 
 <h1>Demostración</h1>
