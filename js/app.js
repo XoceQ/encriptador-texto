@@ -1,7 +1,12 @@
 // Validar que el texto solo contenga letras minúsculas y espacios
 function validarTexto(texto) {
+   
+    const textoSinEspacios = texto.trim(); // Eliminar espacios en blanco
+    if (textoSinEspacios === '') { // Verificar si el texto está vacío
+        return false;
+    }
     const regex = /^[a-z ]+$/;
-    return regex.test(texto);
+    return regex.test(textoSinEspacios);
 }
 
 // Función para cifrar el texto
@@ -9,6 +14,11 @@ function cifrarTexto() {
     
     const texto = document.getElementById("texto").value;
     const mensajes = document.getElementById("mensajes");
+
+    if (texto.trim() === '') { // Verificar si el texto está vacío
+        mensajes.textContent = "El campo no puede estar vacío.";
+        return;
+    }
 
     if (!validarTexto(texto)) {
         mensajes.textContent = "Solo se aceptan letras minúsculas y espacios, sin caracteres especiales.";
@@ -40,8 +50,16 @@ function cifrarTexto() {
 // Función para descifrar el texto
 function descifrarTexto() {
 
+    
+
     const texto = document.getElementById("texto").value;
     const mensajes = document.getElementById("mensajes");
+
+    if (texto.trim() === '') { // Verificar si el texto está vacío
+        mensajes.textContent = "El campo no puede estar vacío.";
+        return;
+    }
+
 
     if (!validarTexto(texto)) {
         mensajes.textContent = "Solo se aceptan letras minúsculas y espacios, sin caracteres especiales.";
